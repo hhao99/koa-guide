@@ -10,13 +10,12 @@ Koa，下一代 Node.js web 框架
 
 ### 安装 koa
 
-koa 依赖支持 generator 的 Node 环境，准确来说，是 `node >= 0.11.9` 的环境。如果你正在使用一个更早的 Node 版本，可以使用模块 `n` 来管理多版本环境，并且快速安装 `0.11.x`:
-
-```bash
-$ npm install -g n
-$ n 0.11
-$ node --harmony my-koa-app.js
-```
+koa 依赖支持 generator 的 Node 环境，准确来说，是 `node >= 0.11.9` 的环境。
+如果需要在Node多版本环境中工作，推荐使用nvm[url=https://github.com/creationix/nvm]
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+安装完成以后，使用 . ~/.nvm/nvm.sh 来激活nvm。
+nvm install 6.1.0
+nvm use 6.1.0
 
 安装完成后，应确保使用 `$ node --harmony app.js` 即，harmony 模式运行程序。
 
