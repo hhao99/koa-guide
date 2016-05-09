@@ -12,7 +12,9 @@ Koa，下一代 Node.js web 框架
 
 koa 依赖支持 generator 的 Node 环境，准确来说，是 `node >= 0.11.9` 的环境。
 如果需要在Node多版本环境中工作，推荐使用nvm[url=https://github.com/creationix/nvm]
+
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+
 安装完成以后，使用 . ~/.nvm/nvm.sh 来激活nvm。
 nvm install 6.1.0
 nvm use 6.1.0
